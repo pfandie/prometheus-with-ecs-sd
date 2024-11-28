@@ -1,4 +1,4 @@
-FROM prom/prometheus:v3.0.0
+FROM prom/prometheus:v3.0.1
 COPY prometheus.yml /etc/prometheus/prometheus.yml
 USER nobody
 CMD        [ "--config.file=/etc/prometheus/prometheus.yml", \
